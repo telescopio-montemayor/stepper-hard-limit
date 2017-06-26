@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/media/datos/proyectos/unlp/stepper_hard_limit/stepper_hard_limit.sch</source>
+    <date>dom 25 jun 2017 21:11:50 ART</date>
+    <tool>Eeschema 4.0.6-e0-6349~53~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Limitador stepper</title>
+        <company>Telescopio Montemayor</company>
+        <rev/>
+        <date/>
+        <source>stepper_hard_limit.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>4093</value>
+      <libsource lib="cmos_ieee" part="4093"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594F2F69</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <libsource lib="device" part="D_Small_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595042D0</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <libsource lib="device" part="D_Small_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59504394</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59504618</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>1N4148</value>
+      <libsource lib="device" part="D_Small_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5950488F</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>1N4148</value>
+      <libsource lib="device" part="D_Small_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595048F6</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595049AB</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>220</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59504A73</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148</value>
+      <libsource lib="device" part="D_Small_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59504F4D</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148</value>
+      <libsource lib="device" part="D_Small_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59504F53</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59504F5A</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>220</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59504F60</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59505A45</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10u</value>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59505A94</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>PWR</value>
+      <libsource lib="conn" part="Screw_Terminal_1x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5950667F</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>SW1</value>
+      <libsource lib="conn" part="Screw_Terminal_1x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5950699A</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>SW2</value>
+      <libsource lib="conn" part="Screw_Terminal_1x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59506A7E</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>DRIVER_MOTOR</value>
+      <libsource lib="conn" part="Screw_Terminal_1x04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595074C3</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>CONTROL</value>
+      <libsource lib="conn" part="Screw_Terminal_1x04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59507E0D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="cmos_ieee" part="4093">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">4093</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="output"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="input"/>
+        <pin num="7" name="Vss" type="power_in"/>
+        <pin num="8" name="~" type="input"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="output"/>
+        <pin num="11" name="~" type="output"/>
+        <pin num="12" name="~" type="input"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="Vdd" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Small_ALT">
+      <description>Diode, small symbol, alternativ symbol</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Small_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Screw_Terminal_1x02">
+      <description>2-pin screw terminal connector</description>
+      <footprints>
+        <fp>bornier2</fp>
+        <fp>TerminalBlock*2pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_1x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Screw_Terminal_1x04">
+      <description>4-pin screw terminal connector</description>
+      <footprints>
+        <fp>bornier4</fp>
+        <fp>TerminalBlock*4pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_1x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="cmos_ieee">
+      <uri>/usr/share/kicad/library/cmos_ieee.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="SW1">
+      <node ref="J2" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="2" name="STEP">
+      <node ref="J5" pin="2"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="3" name="ENABLE">
+      <node ref="U1" pin="11"/>
+      <node ref="J4" pin="4"/>
+      <node ref="J5" pin="4"/>
+    </net>
+    <net code="4" name="+5V">
+      <node ref="U1" pin="14"/>
+      <node ref="D3" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="J3" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="D6" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J5" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="6" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="7" name="Net-(D2-Pad1)">
+      <node ref="U1" pin="4"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="8" name="Net-(D1-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="U1" pin="12"/>
+      <node ref="U1" pin="13"/>
+      <node ref="R5" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="9" name="DIR">
+      <node ref="J4" pin="3"/>
+      <node ref="U1" pin="9"/>
+      <node ref="J5" pin="3"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="10" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="11" name="Net-(D3-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="12" name="Net-(D5-Pad2)">
+      <node ref="R2" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="D6" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="13" name="SW2">
+      <node ref="R2" pin="2"/>
+      <node ref="J3" pin="2"/>
+    </net>
+  </nets>
+</export>
