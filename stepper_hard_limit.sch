@@ -332,7 +332,7 @@ Wire Wire Line
 	2750 3800 2900 3800
 Connection ~ 2750 3050
 Text GLabel 5350 2250 2    60   Output ~ 0
-ENABLE
+~ENABLE
 $Comp
 L C C1
 U 1 1 59505A45
@@ -516,7 +516,7 @@ STEP
 Text GLabel 7800 3800 0    60   Input ~ 0
 DIR
 Text GLabel 7800 3600 0    60   Input ~ 0
-ENABLE
+~ENABLE
 Wire Wire Line
 	7800 3600 7850 3600
 Wire Wire Line

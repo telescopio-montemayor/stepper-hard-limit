@@ -1,4 +1,4 @@
-update=dom 25 jun 2017 21:24:03 ART
+update=jue 29 jun 2017 00:45:32 ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -57,5 +57,15 @@ LibName30=cmos_ieee
 [cvpcb]
 version=1
 NetIExt=net
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [general]
 version=1
